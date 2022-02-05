@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="Stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div class="main">
+       <!---<img src="wp2497619-calculator-wallpapers.jpg" alt="" width="100%" height="700px">--> 
+        <div class="calculator">
+        <div class="screen">
+            <input type="text" id="display" placeholder="Calculator...">
+        </div>
+        <div class="Buttons">
+            <div class="rows">
+                <button onclick="operation(7)" class="keys">7</button>
+                <button onclick="operation(8)" class="keys">8</button>
+                <button onclick="operation(9)" class="keys">9</button>
+                <button onclick="operation('/')" class="keys">/</button>
+            </div>
+            <divc class="rows">
+                <button onclick="operation(4)" class="keys">4</button>
+                <button onclick="operation(5)" class="keys">5</button>
+                <button onclick="operation(6)" class="keys">6</button>
+                <button onclick="operation('*')" class="keys">x</button>
+            </div>
+            <div class="rows">
+                <button onclick="operation(1)"class="keys">1</button>
+                <button onclick="operation(2)" class="keys">2</button>
+                <button onclick="operation(3)" class="keys">3</button>
+                <button onclick="operation('-')" class="keys">-</button>
+            </div>
+            <div class="rows">
+                <button onclick="operation('.')" class="keys">.</button>
+                <button onclick="operation(0)" class="keys">0</button>
+                <button onclick="operation('+')" class="keys">+</button>
+                <button onclick="equals('=')" class="keys">=</button>
+            </div>
+            <button onclick="empty()" class="clear">clear</button>
+            
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
